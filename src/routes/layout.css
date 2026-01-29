@@ -1,0 +1,38 @@
+@import "tailwindcss";
+@plugin '@tailwindcss/typography';
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
+}
+
+@font-face {
+  font-family: scabo; /* set name */
+  src: url("../lib/assets/fonts/SCHABO-Condensed.woff");
+}
+@font-face {
+  font-family: condenso; /* set name */
+  src: url("../lib/assets/fonts/condenso.woff");
+}
+
+.scabo {
+  font-family: scabo;
+}
+.condenso {
+  font-family: condenso;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+}
+
+.bebas {
+  font-family: "Bebas Neue", cursive;
+  line-height: 1;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+}
